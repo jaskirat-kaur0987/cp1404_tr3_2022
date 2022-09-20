@@ -6,8 +6,9 @@
 
 def main():
     """Function docstring"""
-    # statements...
-    get_password()
+    # get password
+    password = get_password()
+    print(password)
 
 
 def get_password():
@@ -17,6 +18,6 @@ def get_password():
     for i in range(len(password)):
         print('*', end=" ")
     print()
-
+    return password
 
 main()
